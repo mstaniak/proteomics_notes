@@ -1,15 +1,14 @@
 --- 
-title: "Interpretable Machine Learning for Bioinformatics"
+title: "Proteomics"
 author: "Mateusz Staniak"
-date: "2018-11-07"
+date: "2019-02-14"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: mstaniak/bioinformatics
-url: 'http\://seankross.com/bookdown-start/'
-description: "Applications of Interpretable Machine Learning techniques to problems in Bioinformatics, mainly Biological Sequences Analysis"
+github-repo: mstaniak/proteomics
+description: "Notes on Proteomics"
 ---
 
 # Preface {-}

@@ -1,4 +1,2 @@
-# Introduction
-
-This is the first real chapter.
+# About this book
 

@@ -1,10 +1,45 @@
 # Mass Spectrometry - Based Proteomics
 
+This chapter is based on TODO: cytowanie do "Introduction to Mass Spectrometry-Based Proteomics" Matthiesen, Bunkenborg.
+TODO: uzupełnić w oparciu o wykłady Dirka.
 
 ## MS-Based Proteomics Introduction
 
+Mass spectrometry is one of the most important methods of studying proteins. 
+It provides information that is complementary to information that can be obtained using techniques such as NMR or X-ray crystallography. 
+Mass spectrometry is easier to automatate (and is more reproducible), more sensitive, can be used on complex mixtures and is easy to combine with different separation techniques. 
+One of the main goals of MS-based Proteomics is identification and quantification of proteins and protein mixtures.
+Post translational modifications resulting from many processes such as phosphorylation, acetylation or methylation can be analyzed by MS.
+MS can be also used to determine N- or C-terminus of proteins to examine the primary structure of proteins or map proteolytic cleavage sites in proteins.
+Moreover, MS can be applied to determine if the protein folded correctly and to other structural studies.
+
+These notes focus on protein identification and quantification. 
+There are three main approach to MS-based protein identification:
+
+  - **bottom-up approach**, in which proteins are cut into peptides that serve as input to Mass Spectrometer,
+  - **shotgun approach**, which is a special case of bottom-up proteomics where a complex mixture of proteins is digested into peptides (usually trypsin is used for this task) which are then separated using Liquid Chromatography,
+  - **top-down approach**, in which the mass spectrometer isolates a full length protein (which can be fragmented inside the mass spectrometer and the masses of fragments can be also recorded).
+ 
+TODO: work flow identyfikacji 
+TODO: dobra ilustracja tych trzech strategii
+TODO: co to jest LC? Co daje, co zmienia?
 
 ## Mass Spectrometer
+
+A mass spectrometer is a device for measuring the mass-to-charge ratio of ionized molecules. 
+All mass spectrometers consist of three main parts:
+  - an ion source, where analyte ions are produced by transferring molecules from the condensed (liquid or solid) state to gas phase (ionization is done in the process and molecule can receive either positive or negative charge). Different methods can be used for ionization, most common in proteomics are ESI (Electro Spray Ionization) and MALDI (Matrix-Assisted Laser Desorption and Ionization),
+  TODO: lepsze slowo niz "receive"
+  - a mass analyzer, where the ions are separated according to their mass to charge ration (_m/z_). Multiple different types of analyzer exists and they can be used in combination (by tandem mass spectrometers)
+  - a detector, which records a signal that can be electronically amplified and stored.
+  TODO: opis detektora
+
+TODO: dlaczego w ogole m/z jest pomocne.
+
+The results from mass analyzers can be transformed to internsities as a function of _m/z_ (for example by Fourier Transform). The _m/z_ vs intensity plot is a mass spectrum that is the final output from the mass spectrometer.
+
+Many combinations of instrument setups and fragmentation techniques can be used for MS-based Proteomics.
+These choices affect the data analysis process, so understanding how the data were collected is crucial to protein identification and quantification.
 
 
 ## Sample Preparation

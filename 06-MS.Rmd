@@ -72,8 +72,58 @@ Before LC-MS, the peptide sample is usually cleaned up (desalted and cleaned fro
 
 TODO: co to jest column <...> ?
 
-## Ionization Methods
+## Ionization Methods and Mass Analyzers
 
+The formation of gas-phase ions is required before the molecular masses of a sample can be measured by the mass analyzer. 
+ESI and MALDI are two methods that are able to eficiently create the ions from large biomolecules with minimum fragmentation.
+Currently, five mass analyzer types are commonly used: quadrupole mass filters (Q), time of flight mass analyzers (TOF), ion traps (IT), FT-ICR and Orbitrap analyzers.
+They can work as standalone but they are usually combined in hybrid configurations of which some are more popular. 
+The most populars configurations include Q-TOF, Q-ion mobility-TOF, triple quadrupole, ion trap-Orbitrap and Q-Orbitrap.
+
+
+### MALDI-TOF MS
+
+#### MALDI Ionization
+
+In MALDI, the analyte is mixed with a compound (called the matrix, usually small aromatic acids), which absorbs the energy from the laser. 
+The sample is co-crystallized with an excess amount of the matrix.
+Irradiation with a short-pulsed laser causes mainly ionization of the matrix followed by energy and proton transfer to the analyte.
+MALDI efficiently ionizes peptides and protein intact.
+This method is robust t typical contaminants present in protein/peptide samples such as salts, urea or glycerol, though it is sensitive to low concentrations of SDS.
+
+Matrix preparation affects the quality of MALDI-MS spectra.
+There is no universal matrix preparation procedure.
+While several general guidelines have been found, several combinations should be tested for each sample and some optimization specific to the sample may be needed.
+
+TODO: jasniejszy/bardziej szczegolowy opis
+
+TODO: co to dokladnie PMF?
+
+#### The TOF Mass Analyzer
+
+In TOF-MS a population of ions, for example derived by MALDI, is accelerated by an eletrical potential and each ion acquires a kinetic energy depending on its mass and charge state.
+After acceleration the ions pass through a field free region where each ion is traveling with a speed characteristic of their _m/z_ value.
+At the end of the field free regiona detector measures the time of flight (TOF).
+TOF is a sum of flight times in two regions - accelaration region and field free region - and detection time.
+TOF in field free region can be estimated by the drift time, which is proportional to the square root of _m/z_.
+
+TODO: wzor na drift time
+
+TODO: uwagi nt mass resolution (tu lub gdzies indziej)
+
+
+#### MALDI-TOF MS Spectrum
+
+TOF recored by MALDI-TOF spectrometer must be transformed to relative intensity.
+
+
+#### MALDI-TOF MS Issues
+
+Issues with MALDI include the fact that some peptides may not be able to co-crystallize with the used matrix and arginine-containing peptides are more frequently observed in MALDI MS spectra due to higher proton affinity and higher stability. 
+Due to the competition for the protons in the matrix plume, a limited protein sequence coverage is observed (30-40% in good samples).
+Moreover, heterogenity in the matrix-sample sample crystal formation can cause difficulties for quantifying and reproducing results.
+The major problem with MALDI-TOF MS is obtaining highly significant search results due to not all expected tryptic peptides showing up in experimental MS spectrum and presence of unknown mass peaks.
+PMF is limited to the analysis of purified proteins.
 
 
 ## Fragmentation Methods

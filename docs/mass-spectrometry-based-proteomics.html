@@ -87,8 +87,13 @@
 <li class="chapter" data-level="6" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html"><i class="fa fa-check"></i><b>6</b> Mass Spectrometry - Based Proteomics</a><ul>
 <li class="chapter" data-level="6.1" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#ms-based-proteomics-introduction"><i class="fa fa-check"></i><b>6.1</b> MS-Based Proteomics Introduction</a></li>
 <li class="chapter" data-level="6.2" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#mass-spectrometer"><i class="fa fa-check"></i><b>6.2</b> Mass Spectrometer</a></li>
-<li class="chapter" data-level="6.3" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#sample-preparation"><i class="fa fa-check"></i><b>6.3</b> Sample Preparation</a></li>
-<li class="chapter" data-level="6.4" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#ionization-methods"><i class="fa fa-check"></i><b>6.4</b> Ionization Methods</a></li>
+<li class="chapter" data-level="6.3" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#sample-preparation"><i class="fa fa-check"></i><b>6.3</b> Sample Preparation</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#complete-digestion"><i class="fa fa-check"></i><b>6.3.1</b> Complete Digestion</a></li>
+<li class="chapter" data-level="6.3.2" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#protein-and-peptide-separation"><i class="fa fa-check"></i><b>6.3.2</b> Protein and Peptide Separation</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#ionization-methods-and-mass-analyzers"><i class="fa fa-check"></i><b>6.4</b> Ionization Methods and Mass Analyzers</a><ul>
+<li class="chapter" data-level="6.4.1" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#maldi-tof-ms"><i class="fa fa-check"></i><b>6.4.1</b> MALDI-TOF MS</a></li>
+</ul></li>
 <li class="chapter" data-level="6.5" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#fragmentation-methods"><i class="fa fa-check"></i><b>6.5</b> Fragmentation Methods</a></li>
 <li class="chapter" data-level="6.6" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#detectors"><i class="fa fa-check"></i><b>6.6</b> Detectors</a></li>
 <li class="chapter" data-level="6.7" data-path="mass-spectrometry-based-proteomics.html"><a href="mass-spectrometry-based-proteomics.html#ms-ms-spectra"><i class="fa fa-check"></i><b>6.7</b> MS-MS Spectra</a></li>
@@ -145,10 +150,47 @@
 </div>
 <div id="sample-preparation" class="section level2">
 <h2><span class="header-section-number">6.3</span> Sample Preparation</h2>
-<p>The quality of MS data depends on sample complexity and purity. Main issues are caused by - ion suppression</p>
+<p>The quality of MS data depends on sample complexity and purity. Main issues are caused by - ion suppression, where many different species compete for the charges during the ionization process, TODO: wiecej, to jest tylko w LC czy ogolnie? - contamination associated with the mass spectrometer (for example oil used for mass spectrometer pumps), sample preparation in the lab (for example sheep keratin from clothing) or earlier sample preparation (for example serum used to supplement growth media when studying proteins from cell cultures). Even if contaminating proteins are included in the database query after MS experiment to avoid identifying proteins homologous to proteins from contamination, problems with ion suppresion or overlap with target peptides of interest may occur.</p>
+<p>TODO: dodac ogolne uwagi z 2.2 Powiazac je z przykladami Dirka z trypsyna.</p>
+<div id="complete-digestion" class="section level3">
+<h3><span class="header-section-number">6.3.1</span> Complete Digestion</h3>
+<p>Peptide and protein indentification methods are often robust against partial incomplete digestion. TODO: dodac przyklad z 2.3 z artykulu, o ile bedzie to zrozumiale. On the other hand, some relative and absolute quantitation techniques are affected by uncontrolled digestion. The sensitive methods include iCAT, HysTag, iTRAQ and label free quantitation (relative measure); AQUA and QCONCAT (absolute quantification). SILAC (relative) and PSAQ (absolute) are robust methods.</p>
 </div>
-<div id="ionization-methods" class="section level2">
-<h2><span class="header-section-number">6.4</span> Ionization Methods</h2>
+<div id="protein-and-peptide-separation" class="section level3">
+<h3><span class="header-section-number">6.3.2</span> Protein and Peptide Separation</h3>
+<p>For simple peptide sample is associated with less ion suppresion, which causes smaller risk of peak overlap and more sensitivity. Protein and peptide separation techniques can be applied to obtain simple peptide mixtures.</p>
+<p>TODO: metody separacji z 2.4, o ile to bedzie zrozumiale, ew. powiazac z wykladami Dirka</p>
+<p>Before LC-MS, the peptide sample is usually cleaned up (desalted and cleaned from gel debris) by reversed phase columns.</p>
+<p>TODO: co to jest column &lt;…&gt; ?</p>
+</div>
+</div>
+<div id="ionization-methods-and-mass-analyzers" class="section level2">
+<h2><span class="header-section-number">6.4</span> Ionization Methods and Mass Analyzers</h2>
+<p>The formation of gas-phase ions is required before the molecular masses of a sample can be measured by the mass analyzer. ESI and MALDI are two methods that are able to eficiently create the ions from large biomolecules with minimum fragmentation. Currently, five mass analyzer types are commonly used: quadrupole mass filters (Q), time of flight mass analyzers (TOF), ion traps (IT), FT-ICR and Orbitrap analyzers. They can work as standalone but they are usually combined in hybrid configurations of which some are more popular. The most populars configurations include Q-TOF, Q-ion mobility-TOF, triple quadrupole, ion trap-Orbitrap and Q-Orbitrap.</p>
+<div id="maldi-tof-ms" class="section level3">
+<h3><span class="header-section-number">6.4.1</span> MALDI-TOF MS</h3>
+<div id="maldi-ionization" class="section level4">
+<h4><span class="header-section-number">6.4.1.1</span> MALDI Ionization</h4>
+<p>In MALDI, the analyte is mixed with a compound (called the matrix, usually small aromatic acids), which absorbs the energy from the laser. The sample is co-crystallized with an excess amount of the matrix. Irradiation with a short-pulsed laser causes mainly ionization of the matrix followed by energy and proton transfer to the analyte. MALDI efficiently ionizes peptides and protein intact. This method is robust t typical contaminants present in protein/peptide samples such as salts, urea or glycerol, though it is sensitive to low concentrations of SDS.</p>
+<p>Matrix preparation affects the quality of MALDI-MS spectra. There is no universal matrix preparation procedure. While several general guidelines have been found, several combinations should be tested for each sample and some optimization specific to the sample may be needed.</p>
+<p>TODO: jasniejszy/bardziej szczegolowy opis</p>
+<p>TODO: co to dokladnie PMF?</p>
+</div>
+<div id="the-tof-mass-analyzer" class="section level4">
+<h4><span class="header-section-number">6.4.1.2</span> The TOF Mass Analyzer</h4>
+<p>In TOF-MS a population of ions, for example derived by MALDI, is accelerated by an eletrical potential and each ion acquires a kinetic energy depending on its mass and charge state. After acceleration the ions pass through a field free region where each ion is traveling with a speed characteristic of their <em>m/z</em> value. At the end of the field free regiona detector measures the time of flight (TOF). TOF is a sum of flight times in two regions - accelaration region and field free region - and detection time. TOF in field free region can be estimated by the drift time, which is proportional to the square root of <em>m/z</em>.</p>
+<p>TODO: wzor na drift time</p>
+<p>TODO: uwagi nt mass resolution (tu lub gdzies indziej)</p>
+</div>
+<div id="maldi-tof-ms-spectrum" class="section level4">
+<h4><span class="header-section-number">6.4.1.3</span> MALDI-TOF MS Spectrum</h4>
+<p>TOF recored by MALDI-TOF spectrometer must be transformed to relative intensity.</p>
+</div>
+<div id="maldi-tof-ms-issues" class="section level4">
+<h4><span class="header-section-number">6.4.1.4</span> MALDI-TOF MS Issues</h4>
+<p>Issues with MALDI include the fact that some peptides may not be able to co-crystallize with the used matrix and arginine-containing peptides are more frequently observed in MALDI MS spectra due to higher proton affinity and higher stability. Due to the competition for the protons in the matrix plume, a limited protein sequence coverage is observed (30-40% in good samples). Moreover, heterogenity in the matrix-sample sample crystal formation can cause difficulties for quantifying and reproducing results. The major problem with MALDI-TOF MS is obtaining highly significant search results due to not all expected tryptic peptides showing up in experimental MS spectrum and presence of unknown mass peaks. PMF is limited to the analysis of purified proteins.</p>
+</div>
+</div>
 </div>
 <div id="fragmentation-methods" class="section level2">
 <h2><span class="header-section-number">6.5</span> Fragmentation Methods</h2>

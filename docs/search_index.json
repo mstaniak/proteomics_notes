@@ -1,4 +1,11 @@
 [
-["index.html", "Proteomics Preface", " Proteomics Mateusz Staniak 2019-02-14 Preface This is the very first part of the book. "],
-["introduction.html", "Chapter 1 Introduction", " Chapter 1 Introduction This is the first real chapter. "]
+["index.html", "Proteomics Preface", " Proteomics Mateusz Staniak 2019-02-27 Preface This is the very first part of the book. "],
+["about-this-book.html", "Chapter 1 About this book", " Chapter 1 About this book "],
+["proteomics.html", "Chapter 2 Proteomics 2.1 What is Proteomics? 2.2 Why do we need Proteomics?", " Chapter 2 Proteomics 2.1 What is Proteomics? 2.2 Why do we need Proteomics? "],
+["proteins.html", "Chapter 3 Proteins", " Chapter 3 Proteins "],
+["proteomics-databases.html", "Chapter 4 Proteomics Databases 4.1 Raw Mass Spectrometry data 4.2 Protein Quantification and Identification 4.3 Protein Knowledge", " Chapter 4 Proteomics Databases Proteomics as a field is younger than for example genomics. Data standards and formats, public data exchange and databases are … Proteomics databases can be roughly divided into three types that are dedicated to raw Mass Spectrometry data, Protein identification and quantification, Protein knowledge1. 4.1 Raw Mass Spectrometry data 4.1.1 MassIVE 4.2 Protein Quantification and Identification 4.3 Protein Knowledge 4.3.1 UniProt 4.3.2 NextProt Perez-Riverol Y, Alpi E, Wang R, Hermjakob H, Vizcaino JA. Making proteomics data accessible and reusable: current state of proteomics databases and repositories. Proteomics (2015) 15:930–49.↩ "],
+["proteomics-software.html", "Chapter 5 Proteomics software", " Chapter 5 Proteomics software "],
+["mass-spectrometry-based-proteomics.html", "Chapter 6 Mass Spectrometry - based Proteomics", " Chapter 6 Mass Spectrometry - based Proteomics "],
+["analysis-of-mass-spectrometry-data.html", "Chapter 7 Analysis of Mass Spectrometry data", " Chapter 7 Analysis of Mass Spectrometry data "],
+["protein-sequence-analysis.html", "Chapter 8 Protein sequence analysis", " Chapter 8 Protein sequence analysis "]
 ]

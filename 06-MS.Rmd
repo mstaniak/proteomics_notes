@@ -44,8 +44,36 @@ These choices affect the data analysis process, so understanding how the data we
 
 ## Sample Preparation
 
+The quality of MS data depends on sample complexity and purity. 
+Main issues are caused by
+  - ion suppression, where many different species compete for the charges during the ionization process,
+  TODO: wiecej, to jest tylko w LC czy ogolnie?
+  - contamination associated with the mass spectrometer (for example oil used for mass spectrometer pumps), sample preparation in the lab (for example sheep keratin from clothing) or earlier sample preparation (for example serum used to supplement growth media when studying proteins from cell cultures). Even if contaminating proteins are included in the database query after MS experiment to avoid identifying proteins homologous to proteins from contamination, problems with ion suppresion or overlap with target peptides of interest may occur.
+  
+TODO: dodac ogolne uwagi z 2.2
+Powiazac je z przykladami Dirka z trypsyna.
+
+### Complete Digestion
+
+Peptide and protein indentification methods are often robust against partial incomplete digestion. 
+TODO: dodac przyklad z 2.3 z artykulu, o ile bedzie to zrozumiale.
+On the other hand, some relative and absolute quantitation techniques are affected by uncontrolled digestion. 
+The sensitive methods include iCAT, HysTag, iTRAQ and label free quantitation (relative measure); AQUA and QCONCAT (absolute quantification).
+SILAC (relative) and PSAQ (absolute) are robust methods.
+
+### Protein and Peptide Separation
+
+For simple peptide sample is associated with less ion suppresion, which causes smaller risk of peak overlap and more sensitivity.
+Protein and peptide separation techniques can be applied to obtain simple peptide mixtures. 
+
+TODO: metody separacji z 2.4, o ile to bedzie zrozumiale, ew. powiazac z wykladami Dirka
+
+Before LC-MS, the peptide sample is usually cleaned up (desalted and cleaned from gel debris) by reversed phase columns.
+
+TODO: co to jest column <...> ?
 
 ## Ionization Methods
+
 
 
 ## Fragmentation Methods

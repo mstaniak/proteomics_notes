@@ -95,7 +95,9 @@
 </ul></li>
 <li class="chapter" data-level="7" data-path="analysis-of-mass-spectrometry-data.html"><a href="analysis-of-mass-spectrometry-data.html"><i class="fa fa-check"></i><b>7</b> Analysis of Mass Spectrometry data</a><ul>
 <li class="chapter" data-level="7.1" data-path="analysis-of-mass-spectrometry-data.html"><a href="analysis-of-mass-spectrometry-data.html#data-formats"><i class="fa fa-check"></i><b>7.1</b> Data Formats</a><ul>
-<li class="chapter" data-level="7.1.1" data-path="analysis-of-mass-spectrometry-data.html"><a href="analysis-of-mass-spectrometry-data.html#data-import"><i class="fa fa-check"></i><b>7.1.1</b> Data Import</a></li>
+<li class="chapter" data-level="7.1.1" data-path="analysis-of-mass-spectrometry-data.html"><a href="analysis-of-mass-spectrometry-data.html#raw-data-formats"><i class="fa fa-check"></i><b>7.1.1</b> Raw Data Formats</a></li>
+<li class="chapter" data-level="7.1.2" data-path="analysis-of-mass-spectrometry-data.html"><a href="analysis-of-mass-spectrometry-data.html#processed-data-formats"><i class="fa fa-check"></i><b>7.1.2</b> Processed Data Formats</a></li>
+<li class="chapter" data-level="7.1.3" data-path="analysis-of-mass-spectrometry-data.html"><a href="analysis-of-mass-spectrometry-data.html#data-import"><i class="fa fa-check"></i><b>7.1.3</b> Data Import</a></li>
 </ul></li>
 <li class="chapter" data-level="7.2" data-path="analysis-of-mass-spectrometry-data.html"><a href="analysis-of-mass-spectrometry-data.html#data-analysis"><i class="fa fa-check"></i><b>7.2</b> Data Analysis</a></li>
 </ul></li>
@@ -124,13 +126,36 @@
 <h1><span class="header-section-number">Chapter 7</span> Analysis of Mass Spectrometry data</h1>
 <div id="data-formats" class="section level2">
 <h2><span class="header-section-number">7.1</span> Data Formats</h2>
+<p>The output from an MS experiment is a large collection of precurson ion intensities and associated (tandem) mass spectra. Data formats in which these outputs are stored can be divided into two main groups: - raw data formats, which are often propriety formats associated with specific MS equipment. Standardized raw data formats such as mzXML or mzDATA were proposed to make data processing easier. - processed data formats that store only the most important information - the observed <em>m/z</em> and charge state of precursor ion and most informative <em>m/z</em>-intensity pairs for the fragment ions. These formats (associated software is given in parenthesis) include pkl (MassLynx, Micromass), mgf (Mascot generic file), data (Data analysis, Bruker), pkx (VEMS), dta (Xcalibur).</p>
+<div id="raw-data-formats" class="section level3">
+<h3><span class="header-section-number">7.1.1</span> Raw Data Formats</h3>
+<div id="mzxml" class="section level4">
+<h4><span class="header-section-number">7.1.1.1</span> mzXML</h4>
+</div>
+<div id="mzml" class="section level4">
+<h4><span class="header-section-number">7.1.1.2</span> mzML</h4>
+<p>TODO: wiecej formatow</p>
+</div>
+</div>
+<div id="processed-data-formats" class="section level3">
+<h3><span class="header-section-number">7.1.2</span> Processed Data Formats</h3>
+<div id="pkl-format" class="section level4">
+<h4><span class="header-section-number">7.1.2.1</span> pkl Format</h4>
+</div>
+<div id="mgf-format" class="section level4">
+<h4><span class="header-section-number">7.1.2.2</span> mgf Format</h4>
+</div>
+<div id="pkx-format" class="section level4">
+<h4><span class="header-section-number">7.1.2.3</span> pkx Format</h4>
+</div>
+</div>
 <div id="data-import" class="section level3">
-<h3><span class="header-section-number">7.1.1</span> Data Import</h3>
+<h3><span class="header-section-number">7.1.3</span> Data Import</h3>
 <div id="r-tools-bioconductor" class="section level4">
-<h4><span class="header-section-number">7.1.1.1</span> R Tools (Bioconductor)</h4>
+<h4><span class="header-section-number">7.1.3.1</span> R Tools (Bioconductor)</h4>
 </div>
 <div id="python-tools" class="section level4">
-<h4><span class="header-section-number">7.1.1.2</span> Python Tools</h4>
+<h4><span class="header-section-number">7.1.3.2</span> Python Tools</h4>
 </div>
 </div>
 </div>
